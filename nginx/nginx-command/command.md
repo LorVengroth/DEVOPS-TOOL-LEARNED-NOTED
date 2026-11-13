@@ -1,5 +1,7 @@
 ++ NGINX COMMAND ++
 
+    (BASIC COMMAND)
+
 - to start nginx 
 ```bash
 sudo systemctl start nginx
