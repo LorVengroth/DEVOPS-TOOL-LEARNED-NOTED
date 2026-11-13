@@ -1,0 +1,36 @@
+++ NGINX COMMAND ++
+
+- to start nginx 
+```bash
+sudo systemctl start nginx
+```
+
+- to stop nginx 
+```bash
+sudo systemctl stop nginx
+```
+
+- to restart nginx 
+```bash
+sudo systemctl restart nginx
+```
+
+- to reload nginx 
+```bash
+sudo systemctl reload nginx
+```
+
+- to automatic start nginx when the machine boot 
+```bash
+sudo systemctl enable nginx
+```
+
+- to check nginx status 
+```bash
+sudo systemctl status nginx
+```
+
+- to check nginx syntax
+```bash
+sudo nginx -t
+```
